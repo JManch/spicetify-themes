@@ -698,7 +698,7 @@ section.main-buddyFeed-container {
     content: "\21C4";
 }
 .main-skipBackButton-button::before {
-    content: "\udb81\udcae";
+    content: "";
 }
 .main-playPauseButton-button[aria-label="Play"]::before,
 .main-playPauseButton-button:has(
@@ -707,7 +707,7 @@ section.main-buddyFeed-container {
 .main-playPauseButton-button:has(
         path[d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"]
     )::before {
-    content: "\uf04b";
+    content: "";
 }
 .main-playPauseButton-button[aria-label="Pause"]::before,
 .main-playPauseButton-button:has(
@@ -716,16 +716,16 @@ section.main-buddyFeed-container {
 .main-playPauseButton-button:has(
         path[d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"]
     )::before {
-    content: "\udb80\udfe4";
+    content: "";
 }
 .main-skipForwardButton-button::before {
-    content: "\udb81\udcad";
+    content: "";
 }
 .main-repeatButton-button::before {
-    content: "\udb81\udc56";
+    content: "󰑖";
 }
 .main-repeatButton-button[aria-checked="mixed"]::before {
-    content: "\udb81\udc58";
+    content: "󰑘";
 }
 .main-shuffleButton-button > svg,
 .main-skipBackButton-button > svg,
