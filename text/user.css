@@ -36,7 +36,7 @@
     --display-coverart-image: block; /* none | block */
     --display-header-image: block; /* none | block */
     --display-library-image: block; /* none | block */
-    --display-tracklist-image: block; /* none | block */
+    --display-tracklist-image: none; /* none | block */
 
     --border-radius: 0px;
     --border-width: 1px;
@@ -676,7 +676,7 @@ section.main-buddyFeed-container {
     .x-progressBar-fillColor {
     height: 9px;
     background-color: transparent;
-    border-bottom: 2px dashed var(--fg-color);
+    border-bottom: 2px solid var(--fg-color);
 }
 .volume-bar__slider-container .x-progressBar-progressBarBg {
     background-color: transparent;
@@ -698,7 +698,7 @@ section.main-buddyFeed-container {
     content: "\21C4";
 }
 .main-skipBackButton-button::before {
-    content: "\25C1";
+    content: "\udb81\udcae";
 }
 .main-playPauseButton-button[aria-label="Play"]::before,
 .main-playPauseButton-button:has(
@@ -707,7 +707,7 @@ section.main-buddyFeed-container {
 .main-playPauseButton-button:has(
         path[d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"]
     )::before {
-    content: "\25B6";
+    content: "\uf04b";
 }
 .main-playPauseButton-button[aria-label="Pause"]::before,
 .main-playPauseButton-button:has(
@@ -716,16 +716,16 @@ section.main-buddyFeed-container {
 .main-playPauseButton-button:has(
         path[d="M5.7 3a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7H5.7zm10 0a.7.7 0 0 0-.7.7v16.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V3.7a.7.7 0 0 0-.7-.7h-2.6z"]
     )::before {
-    content: "\275A\275A";
+    content: "\udb80\udfe4";
 }
 .main-skipForwardButton-button::before {
-    content: "\25B7";
+    content: "\udb81\udcad";
 }
 .main-repeatButton-button::before {
-    content: "\21BB";
+    content: "\udb81\udc56";
 }
 .main-repeatButton-button[aria-checked="mixed"]::before {
-    content: "\21BB\2474";
+    content: "\udb81\udc58";
 }
 .main-shuffleButton-button > svg,
 .main-skipBackButton-button > svg,
