@@ -8,7 +8,7 @@
 
 /* user settings */
 :root {
-    --font-family: "DM Mono", monospace;
+    --font-family: "FiraCode Nerd Font", monospace;
     /*
     --font-family: 'Anonymous Pro', monospace;
     --font-family: 'Courier Prime', monospace;
@@ -33,10 +33,10 @@
     --line-height: 1.2;
 
     --display-card-image: block; /* none | block */
-    --display-coverart-image: none; /* none | block */
-    --display-header-image: none; /* none | block */
+    --display-coverart-image: block; /* none | block */
+    --display-header-image: block; /* none | block */
     --display-library-image: block; /* none | block */
-    --display-tracklist-image: none; /* none | block */
+    --display-tracklist-image: block; /* none | block */
 
     --border-radius: 0px;
     --border-width: 1px;
@@ -688,7 +688,7 @@ section.main-buddyFeed-container {
 }
 .player-controls__buttons,
 .main-nowPlayingBar-extraControls {
-    opacity: 0.25;
+    opacity: 1;
 }
 .player-controls__buttons:hover,
 .main-nowPlayingBar-extraControls:hover {
@@ -745,7 +745,7 @@ section.main-buddyFeed-container {
     right: var(--panel-gap);
     bottom: var(--panel-gap);
     padding: 17px;
-    opacity: 0.25;
+    opacity: 1;
 }
 .main-devicePicker-indicator.main-devicePicker-connected {
     display: none;
